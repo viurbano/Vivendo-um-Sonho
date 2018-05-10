@@ -1,0 +1,39 @@
+body { 
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+  background-color: #ecf1f1;
+}
+
+.hero{
+  display: block;
+  width: 100%;
+  height: 30%;
+  background: url(https://static.wixstatic.com/media/8c7b2b_9f3a5de57e8d4cae97eb7c844e25bb21~mv2_d_7004_3937_s_4_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main{
+  width: 1140px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.artigo {
+  display: inline-block;
+  width: 45%;
+  margin-right: -4px;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.artigo .titulo {
+  color: #fc6a02;
+
+}
