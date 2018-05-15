@@ -1,10 +1,9 @@
 body { 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   margin: 0;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  overflow: hidden;
   background-color: #ecf1f1;
 }
 
@@ -19,21 +18,30 @@ body {
 }
 
 main{
-  width: 1140px ;
+  width: 85%;
   height: 100%;
   display: block;
   margin: 0 auto;
 }
 
 .artigo {
-  display: inline-block;
-  width: 45%;
-  margin-right: -4px;
-  vertical-align: top;
+  display: block;
   padding: 20px;
+  text-align: center;
 }
 
 .artigo .titulo {
   color: #fc6a02;
+  text-align: left;
+}
+
+.artigo .conteudo {
+  text-align: left;
+}
+
+.artigo .foto {
+  width: 35%;
+  mix-blend-mode: multiply;
+  
 
 }
